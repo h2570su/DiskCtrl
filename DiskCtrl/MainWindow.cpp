@@ -10,7 +10,7 @@ MainWindow::MainWindow(int x, int y, int w, int h) :Fl_Window(x, y, w, h)
 	this->BTN_GetPhyDisks = new Fl_Button(5, rowY, 200, 30, "Get Physical Disks");
 	this->BTN_GetPhyDisks->callback((Fl_Callback*)BTN_GetPhyDisks_Clicked, this);
 
-	this->Label_TextBox_DataRead = new Fl_Box(250, rowY, 200, 30, "Data Read:");
+	this->Label_TextBox_DataRead = new Fl_Box(320, rowY, 200, 30, "Data Read:");
 	this->Label_TextBox_DataRead->align(FL_ALIGN_LEFT);
 	this->TextBox_DataRead = new Fl_Multiline_Output(250, rowY + 30, 800, 600);
 	this->TextBox_DataRead->align(FL_ALIGN_WRAP);

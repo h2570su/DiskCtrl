@@ -70,12 +70,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>E:\Documents\Visual Studio 2017\source\repos\DiskCtrl\DiskCtrl\include;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\Documents\Visual Studio 2017\source\repos\DiskCtrl\DiskCtrl\lib\Debug;E:\Documents\Visual Studio 2017\source\repos\DiskCtrl\DiskCtrl\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>.\include;$(IncludePath)</IncludePath>
+    <LibraryPath>.\lib\Debug;.\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>E:\Documents\Visual Studio 2017\source\repos\DiskCtrl\DiskCtrl\include;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\Documents\Visual Studio 2017\source\repos\DiskCtrl\DiskCtrl\lib\Release;E:\Documents\Visual Studio 2017\source\repos\DiskCtrl\DiskCtrl\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>.\include;$(IncludePath)</IncludePath>
+    <LibraryPath>.\lib\Release;.\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
